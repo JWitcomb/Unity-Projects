@@ -27,7 +27,7 @@ public class Battleship : MonoBehaviour {
 	void Update ()
     {
         TargetPositions ();
-        battleshipPrefab.transform.position = Vector3.Lerp(battleshipPrefab.transform.position, waypoint1Position, speed);
+        battleshipPrefab.transform.position = Vector3.MoveTowards(battleshipPrefab.transform.position, waypoint1Position, speed);
 	}
 
     void TargetPositions()
