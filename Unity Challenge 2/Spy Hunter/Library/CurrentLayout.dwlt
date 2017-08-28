@@ -20,7 +20,7 @@ MonoBehaviour:
   m_ShowMode: 4
   m_Title: 
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 950, y: 542}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &2
 MonoBehaviour:
@@ -106,10 +106,10 @@ MonoBehaviour:
     y: 30
     width: 1920
     height: 947
-  m_MinSize: {x: 679, y: 492}
-  m_MaxSize: {x: 14002, y: 14042}
+  m_MinSize: {x: 683, y: 492}
+  m_MaxSize: {x: 14004, y: 14042}
   vertical: 0
-  controlID: 46
+  controlID: 121
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -130,10 +130,10 @@ MonoBehaviour:
     y: 0
     width: 1358
     height: 947
-  m_MinSize: {x: 404, y: 492}
+  m_MinSize: {x: 406, y: 492}
   m_MaxSize: {x: 10002, y: 14042}
   vertical: 1
-  controlID: 47
+  controlID: 10
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -154,10 +154,10 @@ MonoBehaviour:
     y: 0
     width: 1358
     height: 612
-  m_MinSize: {x: 404, y: 221}
-  m_MaxSize: {x: 8004, y: 4021}
+  m_MinSize: {x: 406, y: 221}
+  m_MaxSize: {x: 8006, y: 4021}
   vertical: 0
-  controlID: 48
+  controlID: 11
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -254,8 +254,8 @@ MonoBehaviour:
     y: 0
     width: 562
     height: 947
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 277, y: 71}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 19}
   m_Panes:
   - {fileID: 19}
@@ -423,23 +423,23 @@ MonoBehaviour:
     height: 591
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 3634fbff
-    m_LastClickedID: -314314
-    m_ExpandedIDs: b602fcff0a75fcfffea0fdff521afeff88ccfeff1afcffff00000000cc4c0000
+    m_SelectedIDs: 
+    m_LastClickedID: 0
+    m_ExpandedIDs: c674eeffd674eeff026df2ff0409f4ffc2a7f6ffd0a7f6ff7e91f7ffe6baf7ff82eff7ff1cf7f8ffa6a0feff807bffff20e9ffff1afcffff00000000cc340000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: BattleShip
+      m_OriginalName: BattleShip
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: -784134
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 0
       m_ClientGUIView: {fileID: 8}
     m_SearchString: 
@@ -475,14 +475,14 @@ MonoBehaviour:
     width: 950
     height: 591
   m_SceneLighting: 0
-  lastFramingTime: 5274.282496404356
+  lastFramingTime: 6574.382473093038
   m_2DMode: 0
   m_isRotationLocked: 0
   m_AudioPlay: 0
   m_Position:
-    m_Target: {x: 29.62973, y: -8.497716, z: 5.927395}
+    m_Target: {x: 9.045914, y: -39.18076, z: 69.31556}
     speed: 2
-    m_Value: {x: 29.62973, y: -8.497716, z: 5.927395}
+    m_Value: {x: 9.045914, y: -39.18076, z: 69.31556}
   m_RenderMode: 0
   m_ValidateTrueMetals: 0
   m_SceneViewState:
@@ -505,18 +505,18 @@ MonoBehaviour:
       speed: 2
       m_Value: 0
   m_Rotation:
-    m_Target: {x: 0.21538034, y: 0.1545178, z: -0.03453684, w: 0.9636093}
+    m_Target: {x: 0.24830125, y: 0.05983786, z: -0.015368069, w: 0.9667108}
     speed: 2
-    m_Value: {x: 0.21538034, y: 0.1545178, z: -0.03453684, w: 0.9636093}
+    m_Value: {x: 0.24830125, y: 0.05983786, z: -0.015368069, w: 0.9667108}
   m_Size:
-    m_Target: 26.638613
+    m_Target: 96.60727
     speed: 2
-    m_Value: 26.638613
+    m_Value: 96.60727
   m_Ortho:
     m_Target: 0
     speed: 2
     m_Value: 0
-  m_LastSceneViewRotation: {x: 0.70710677, y: 0, z: 0, w: 0.70710677}
+  m_LastSceneViewRotation: {x: -0.2574184, y: -0.10411482, z: 0.027909864, w: -0.9602693}
   m_LastSceneViewOrtho: 0
   m_ReplacementShader: {fileID: 0}
   m_ReplacementString: 
@@ -560,33 +560,33 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets/Scripts/Enemies
+    - Assets/Terrain Prefabs
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Scripts/Enemies
+  - Assets/Terrain Prefabs
   m_LastFoldersGridSize: 96
-  m_LastProjectPath: C:\Users\James\Desktop\Unity Challenge 2\Spy Hunter
+  m_LastProjectPath: E:\Git\Unity-Projects\Unity Challenge 2\Spy Hunter
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 363}
-    m_SelectedIDs: d6570000
-    m_LastClickedID: 22486
-    m_ExpandedIDs: 000000001826000024280000b42b0000b62b0000982c0000122d0000682d0000a42d0000c02d00000833000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 0}
+    m_SelectedIDs: 3e290000
+    m_LastClickedID: 10558
+    m_ExpandedIDs: 000000001e2600002a280000c02b0000c22b00001e2d0000742d0000b02d0000cc2d000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
-      m_Name: 
-      m_OriginalName: 
+      m_Name: Scenes
+      m_OriginalName: Scenes
       m_EditFieldRect:
         serializedVersion: 2
         x: 0
         y: 0
         width: 0
         height: 0
-      m_UserData: 0
+      m_UserData: 11152
       m_IsWaitingForDelay: 0
       m_IsRenaming: 0
-      m_OriginalEventType: 11
+      m_OriginalEventType: 0
       m_IsRenamingFilename: 1
       m_ClientGUIView: {fileID: 10}
     m_SearchString: 
@@ -600,7 +600,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 0000000018260000982c0000122d0000a42d0000c02d0000
+    m_ExpandedIDs: 000000001e2600002a280000c02b0000c22b0000a42c00001e2d0000742d0000b02d0000cc2d000020330000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -628,7 +628,7 @@ MonoBehaviour:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
     m_HadKeyboardFocusLastEvent: 1
-    m_ExpandedInstanceIDs: e8240000ac000000fe2c0000c20100002a000000
+    m_ExpandedInstanceIDs: e8240000ac000000fe2c0000c20100002a00000000000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
