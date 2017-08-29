@@ -49,7 +49,7 @@ public class Spawner : MonoBehaviour {
                             (
                                 this.gameObject.transform.position.x,
                                 this.gameObject.transform.position.y,
-                                40.9f
+                                40.7f
                                 
                             );
 
@@ -64,7 +64,7 @@ public class Spawner : MonoBehaviour {
                         (
                             this.gameObject.transform.position.x,
                             this.gameObject.transform.position.y,
-                            45.9f
+                            45.7f
                             
                         );
 
@@ -79,7 +79,7 @@ public class Spawner : MonoBehaviour {
                         (
                             this.gameObject.transform.position.x,
                             this.gameObject.transform.position.y,
-                            45.9f
+                            45.7f
                             
                         );
 

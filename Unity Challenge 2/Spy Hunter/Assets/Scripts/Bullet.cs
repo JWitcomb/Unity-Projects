@@ -11,8 +11,32 @@ public class Bullet : MonoBehaviour {
 	// Update is called once per frame
 	void Update ()
     {
+        Movement();
+        DestroyLongRange();
+	}
+
+    void OnCollisionEnter(Collision other)
+    {
+        if (other.gameObject.tag == "Enemy")
+        {
+            Destroy(this.gameObject);
+        }
+
+        
+    }
+
+    void Movement()
+    {
         myTargetPosition = new Vector3(0, 0, 1 * speed);
 
         this.gameObject.transform.position += myTargetPosition;
-	}
+    }
+
+    void DestroyLongRange()
+    {
+        if (this.gameObject.transform.position.z >= 30)
+        {
+            Destroy(this.gameObject);
+        }
+    }
 }

@@ -9,6 +9,9 @@ TagManager:
   - Spawner
   - Water
   - Land
+  - Enemy
+  - PlayerProjectile
+  - Obsticle
   layers:
   - Default
   - TransparentFX
