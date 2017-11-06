@@ -14,23 +14,27 @@ public class HealthCrate : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-		if (isClaimed == false) 
+		if (other.gameObject.tag == "Player") 
 		{
-			PlayerHealth.PlayerHealthValue += healthReclaimed;
-
-			if (PlayerHealth.PlayerHealthValue >= 100) 
+			if (isClaimed == false) 
 			{
-				PlayerHealth.PlayerHealthValue = 100;
-				isClaimed = true;
-				Destroy (this.gameObject);
-			} 
+				PlayerHealth.PlayerHealthValue += healthReclaimed;
 
-			else 
-			
-			{
-				isClaimed = true;
-				Destroy(this.gameObject);
+				if (PlayerHealth.PlayerHealthValue >= 100) 
+				{
+					PlayerHealth.PlayerHealthValue = 100;
+					isClaimed = true;
+					Destroy (this.gameObject);
+				} 
+
+				else 
+
+				{
+					isClaimed = true;
+					Destroy(this.gameObject);
+				}
 			}
 		}
+
 	}
 }

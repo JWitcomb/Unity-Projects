@@ -18,11 +18,20 @@ public class PlayerHealth : MonoBehaviour {
 	public int gameOverDelay = 5;
 	private int gameOverTimer = 0;
 
-	// Use this for initialization
+
+	void awake () 
+	{
+		
+	}
+
+
+
+
 	void Start () 
 	{
 		healthBarlength = healthBar.transform.localScale.x;
 		healthBarheight = healthBar.transform.localScale.y;
+		PlayerHealthValue = 100;
 	}
 	
 	// Update is called once per frame
@@ -35,16 +44,35 @@ public class PlayerHealth : MonoBehaviour {
 
 	void OnCollisionEnter(Collision other)
 	{
-		if (other.gameObject.tag == "Obsticle")
+		if (other.gameObject.tag == "Obsticle") 
 		{
-			Destroy(this.gameObject);
-			SceneManager.LoadScene("Main Menu");
+			Destroy (this.gameObject);
+			SceneManager.LoadScene ("GameOver");
+		} 
+
+		else if (other.gameObject.tag == "Enemy") 
+		
+		{
+			Destroy (this.gameObject);
+			SceneManager.LoadScene ("GameOver");
 		}
 	}
 
 	void HealthUpdate ()
 	{
-		healthText.text = PlayerHealthValue.ToString();
+
+
+		if (PlayerHealthValue >= 1f) 
+		{
+			healthText.text = PlayerHealthValue.ToString ();
+		} 
+
+		else 
+		{
+			Destroy (this.gameObject);
+			SceneManager.LoadScene ("GameOver");
+		}
+
 	}
 
 
@@ -63,6 +91,8 @@ public class PlayerHealth : MonoBehaviour {
 	{
 		if (gameOver == true) 
 		{
+			
+
 			if (gameOverDelay >= gameOverTimer) 
 			{
 				

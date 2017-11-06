@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Mine : MonoBehaviour {
 
@@ -17,11 +18,15 @@ public class Mine : MonoBehaviour {
 
 	void OnTriggerEnter(Collider other)
 	{
-			if (isClaimed == false) 
+		if (isClaimed == false) 
+		{
+			if (other.gameObject.tag == "Player") 
 			{
 				PlayerHealth.PlayerHealthValue -= damage;
 				isClaimed = true;
 				Destroy(this.gameObject);
 			}
+		}
+
 	}
 }

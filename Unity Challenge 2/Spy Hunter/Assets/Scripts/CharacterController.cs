@@ -41,13 +41,17 @@ public class CharacterController : MonoBehaviour {
         rBody.rotation = Quaternion.Euler(0.0f, 0.0f, rBody.velocity.x * tilt);
     }
 
-    void OnCollisionEnter(Collision other)
-    {
-        if (other.gameObject.tag == "Obsticle")
-        {
-            Destroy(this.gameObject);
-        }
-    }
+    //void OnCollisionEnter(Collision other)
+   // {
+	//	if (other.gameObject.tag == "Obsticle") {
+	//		Destroy (this.gameObject);
+	//	} 
+	//
+	//	else if (other.gameObject.tag == "Enemy") 
+	//	{
+	//		
+	//	}
+    //}
 
     void Update()
     {

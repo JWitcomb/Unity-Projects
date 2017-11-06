@@ -37,7 +37,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4994575596562420}
   - component: {fileID: 65156146616090300}
-  - component: {fileID: 114339398780653266}
+  - component: {fileID: 114791861550969788}
   m_Layer: 0
   m_Name: HealthCrate_01
   m_TagString: Enemy
@@ -65,7 +65,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1893084184538494}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.61, y: 0.64, z: 9.79}
+  m_LocalPosition: {x: 0, y: 0.64, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4941114590293902}
@@ -125,7 +125,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.5, y: 0.5, z: 0.5}
   m_Center: {x: 0, y: 0, z: 0}
---- !u!114 &114339398780653266
+--- !u!114 &114791861550969788
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -133,9 +133,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1893084184538494}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 6d0a27f9f8be0c144ac09b6a758cd805, type: 3}
+  m_Script: {fileID: 11500000, guid: 2728ae73e09e08a488d81f6d69f3b22e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 25
-  rotateSpeed: 150
-  mine: {fileID: 1893084184538494}
+  healthReclaimed: 10
